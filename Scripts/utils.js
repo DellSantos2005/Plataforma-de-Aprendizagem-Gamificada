@@ -10,7 +10,7 @@
 const CONFIG = {
   // Detectar se está no GitHub Pages ou local
   isGitHubPages: window.location.hostname.includes('github.io'),
-  repoName: 'TCC---Plataforma-de-Aprendizagem-Gamificada', // SUBSTITUA PELO NOME DO SEU REPO
+  repoName: 'Plataforma-de-Aprendizagem-Gamificada', // SUBSTITUA PELO NOME DO SEU REPO
   
   // Prefixo do localStorage para evitar conflitos
   storagePrefix: 'plataforma_',
@@ -484,4 +484,5 @@ try {
 // ========================================
 
 window.PLATAFORMA_CONFIG = CONFIG;
+
 window.getBasePath = getBasePath;
